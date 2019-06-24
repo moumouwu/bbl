@@ -1,0 +1,51 @@
+/*重置样式文件*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+/* 设置表格边框一像素 */
+table {
+    border-collapse: collapse;
+}
+
+input::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ccc;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ccc;
+}
+
+/* 取消浏览器自带的默认样式 */
+input,
+button,
+select,
+textarea {
+    outline: none
+}
+
+/* 清浮动功能 */
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0px;
+    visibility: hidden;
+    clear: both;
+}
