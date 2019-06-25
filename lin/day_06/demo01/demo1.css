@@ -1,0 +1,44 @@
+.t-sp1 {
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+.body {
+    background: url("./images/body_bg.jpg");
+    text-align: center;
+}
+
+.b-u1 {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.b-u2 {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 50px;
+}
+
+.b-u1>li {
+    float: left;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.b-u2>li {
+    float: right;
+    margin-left: 20px;
+}
+
+a {
+    width: 60px;
+    display: inline-block;
+    color: white;
+    height: 25px;
+    line-height: 25px;
+}
+
+a:hover {
+    color: #FD6F01;
+    background: white;
+}
