@@ -1,0 +1,101 @@
+.index-top {
+    width: 100%;
+}
+
+.top-box {
+    width: 100%;
+    background: #F5F5F5;
+    margin: 0px auto;
+}
+
+.mg1000 {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.top-box ul {
+    display: inline-block;
+    padding-left: 270px;
+}
+
+.top-box li {
+    float: left;
+}
+
+.top-box a {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    color: #333;
+}
+
+.top-box a:hover {
+    color: #FFAC00;
+}
+
+.top-left-ul2 {
+    margin-left: 100px;
+}
+
+.top-box2-left {
+    float: left;
+    display: block;
+    width: 404px;
+}
+
+.top-box2-left a img {
+    height: 140px;
+    width: 250px;
+}
+
+.top-box2-right {
+    float: right;
+    display: block;
+    width: 580px;
+    padding-top: 25px;
+}
+
+.t-b2-right-1 {
+    vertical-align: top;
+    position: relative;
+}
+
+.ip1 {
+    margin-left: 10px;
+    width: 400px;
+    height: 40px;
+    border: 2px #FFAC00 solid;
+}
+
+.ip2 {
+    position: absolute;
+    border: 0px;
+    right: 70px;
+    width: 100px;
+    height: 44px;
+    background: #F90;
+    color: wheat;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.t-b2-right-p {
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.t-b2-right-p span {
+    color: #888;
+    padding: 0 8px;
+}
+
+.t-b2-right-p a {
+    color: #333;
+}
+
+.t-b2-right-p a:hover {
+    color: #F90;
+}
