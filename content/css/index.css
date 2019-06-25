@@ -5,17 +5,16 @@
 .top-box {
     width: 100%;
     background: #F5F5F5;
-    margin: 0px auto;
 }
 
-.mg1000 {
-    width: 1000px;
+.mg1300 {
+    width: 1300px;
     margin: 0px auto;
 }
 
 .top-box ul {
     display: inline-block;
-    padding-left: 270px;
+
 }
 
 .top-box li {
@@ -35,7 +34,7 @@
 }
 
 .top-left-ul2 {
-    margin-left: 100px;
+    margin-left: 500px;
 }
 
 .top-box2-left {
@@ -50,7 +49,7 @@
 }
 
 .top-box2-right {
-    float: right;
+    float: left;
     display: block;
     width: 580px;
     padding-top: 25px;
