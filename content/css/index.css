@@ -108,7 +108,7 @@
     display: none;
     top: 30px;
     left: 0px;
-    z-index: 10;
+    z-index: 15;
     background-color: #f9f9f9;
 }
 
@@ -119,14 +119,14 @@
 
 .wzdh-down-d1-box1>ul {
     width: 200px;
-    border-right: 1px solid rgb(158, 158, 158);
+    border-right: 1px solid #ccc;
 }
 
 .wzdh-down-d1-box1>ul>li {
     float: left;
     width: 90px;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 10px;
     height: 20px;
 }
 
