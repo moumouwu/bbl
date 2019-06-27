@@ -355,6 +355,8 @@
 .body-t-box2-main {
     float: left;
     position: relative;
+    width: 800px;
+    height: 482px;
 }
 
 .body-t-box2-main-box1 {
@@ -362,6 +364,7 @@
     bottom: 10px;
     left: 5px;
 }
+
 
 .body-t-box2-main-box2 {
     position: absolute;
@@ -383,13 +386,14 @@
 }
 
 .body-t-box2-main-box1>a>img {
-    width: 820px;
+    width: 780px;
 }
 
 .body-t-box2-right {
     float: left;
     height: 482px;
     width: 220px;
+    background: white;
 }
 
 .body-t-box2-right-logo {

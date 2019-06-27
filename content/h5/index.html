@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/font-awesome.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <script src="./index.js"></script>
 </head>
 
-<body>
+<body onload="init()">
 
     <!-- 头部 -->
     <div class="index-top">
@@ -230,161 +231,163 @@
                 </div>
             </div>
             <!-- 下半部 -->
-            <div class="body-t-box2 clearfix">
-                <div class="body-t-box2-left">
-                    <ul>
-                        <li class="body-t-box2-left-li">
-                            <a href="">手机</a> <span>|</span>
-                            <a href="">运营商</a> <span>|</span>
-                            <a href="">智能数码</a>
-                            <div class="body-t-box2-left-li-down">
-                                <img src="../image/wu/20190627111511.png" alt="">
-                            </div>
-                        </li>
+            <div id="body-t-box2-main" style="background: #9AA5FF;">
+                <div class="body-t-box2 clearfix">
+                    <div class="body-t-box2-left">
+                        <ul>
+                            <li class="body-t-box2-left-li">
+                                <a href="">手机</a> <span>|</span>
+                                <a href="">运营商</a> <span>|</span>
+                                <a href="">智能数码</a>
+                                <div class="body-t-box2-left-li-down">
+                                    <img src="../image/wu/20190627111511.png" alt="">
+                                </div>
+                            </li>
 
-                        <li class="body-t-box2-left-li">
-                            <a href="">空调</a> <span>|</span>
-                            <a href="">电视</a> <span>|</span>
-                            <a href="">冰箱</a><span>|</span>
-                            <a href="">洗衣机</a>
-                            <div class="body-t-box2-left-li-down" style="top:-34px;">
-                                <img src="../image/wu/20190627111602.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">厨卫大电</a> <span>|</span>
-                            <a href="">生活家电</a> <span>|</span>
-                            <a href="">厨具</a>
-                            <div class="body-t-box2-left-li-down" style="top:-68px;">
-                                <img src="../image/wu/20190627111650.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">电脑办工</a> <span>|</span>
-                            <a href="">相机</a> <span>|</span>
-                            <a href="">DIY</a>
-                            <div class="body-t-box2-left-li-down" style="top:-102px;">
-                                <img src="../image/wu/20190627111811.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">家居</a> <span>|</span>
-                            <a href="">家具</a> <span>|</span>
-                            <a href="">家装</a> <span>|</span>
-                            <a href="">家纺</a>
-                            <div class="body-t-box2-left-li-down" style="top:-136px;">
-                                <img src="../image/wu/20190627111906.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">食品</a> <span>|</span>
-                            <a href="">酒水</a> <span>|</span>
-                            <a href="">生鲜</a> <span>|</span>
-                            <a href="">特产</a>
-                            <div class="body-t-box2-left-li-down" style="top:-170px;">
-                                <img src="../image/wu/20190627112038.jpg" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">母婴</a> <span>|</span>
-                            <a href="">玩具</a> <span>|</span>
-                            <a href="">车床</a> <span>|</span>
-                            <a href="">童装</a>
-                            <div class="body-t-box2-left-li-down" style="top:-204px;">
-                                <img src="../image/wu/20190627112433.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">运动</a> <span>|</span>
-                            <a href="">户外</a> <span>|</span>
-                            <a href="">足球</a> <span>|</span>
-                            <a href="">跑步机</a>
-                            <div class="body-t-box2-left-li-down" style="top:-238px;">
-                                <img src="../image/wu/20190627112525.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">男装</a> <span>|</span>
-                            <a href="">女装</a> <span>|</span>
-                            <a href="">内衣</a> <span>|</span>
-                            <a href="">鞋靴</a>
-                            <div class="body-t-box2-left-li-down" style="top:-272px;">
-                                <img src="../image/wu/20190627112633.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">箱包</a> <span>|</span>
-                            <a href="">钟表</a> <span>|</span>
-                            <a href="">珠宝</a> <span>|</span>
-                            <a href="">艺术</a>
-                            <div class="body-t-box2-left-li-down" style="top:-306px;">
-                                <img src="../image/wu/20190627112731.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">汽车</a> <span>|</span>
-                            <a href="">汽摩</a> <span>|</span>
-                            <a href="">二手车</a> <span>|</span>
-                            <a href="">车品</a>
-                            <div class="body-t-box2-left-li-down" style="top:-340px;">
-                                <img src="../image/wu/20190627112900.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">图书</a> <span>|</span>
-                            <a href="">艺术</a> <span>|</span>
-                            <a href="">原版</a> <span>|</span>
-                            <a href="">文学</a>
-                            <div class="body-t-box2-left-li-down" style="top:-374px;">
-                                <img src="../image/wu/20190627113040.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">医药健康</a> <span>|</span>
-                            <a href="">计生情趣</a>
-                            <div class="body-t-box2-left-li-down" style="top:-408px;">
-                                <img src="../image/wu/20190627113128.png" alt="">
-                            </div>
-                        </li>
-                        <li class="body-t-box2-left-li">
-                            <a href="">理财</a> <span>|</span>
-                            <a href="">分期</a> <span>|</span>
-                            <a href="">保险</a> <span>|</span>
-                            <a href="">房产</a>
-                            <div class="body-t-box2-left-li-down" style="top:-442px;">
-                                <img src="../image/wu/20190627113228.png" alt="">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="body-t-box2-main">
-                    <a href="#"><img src="../image/wu/156146136481820651.jpg" alt="" class="body-t-box2-main-img1"></a>
-                    <div class="body-t-box2-main-box1"><a href="#"><img src="../image/wu/20190627113924.jpg" alt=""></a>
+                            <li class="body-t-box2-left-li">
+                                <a href="">空调</a> <span>|</span>
+                                <a href="">电视</a> <span>|</span>
+                                <a href="">冰箱</a><span>|</span>
+                                <a href="">洗衣机</a>
+                                <div class="body-t-box2-left-li-down" style="top:-34px;">
+                                    <img src="../image/wu/20190627111602.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">厨卫大电</a> <span>|</span>
+                                <a href="">生活家电</a> <span>|</span>
+                                <a href="">厨具</a>
+                                <div class="body-t-box2-left-li-down" style="top:-68px;">
+                                    <img src="../image/wu/20190627111650.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">电脑办工</a> <span>|</span>
+                                <a href="">相机</a> <span>|</span>
+                                <a href="">DIY</a>
+                                <div class="body-t-box2-left-li-down" style="top:-102px;">
+                                    <img src="../image/wu/20190627111811.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">家居</a> <span>|</span>
+                                <a href="">家具</a> <span>|</span>
+                                <a href="">家装</a> <span>|</span>
+                                <a href="">家纺</a>
+                                <div class="body-t-box2-left-li-down" style="top:-136px;">
+                                    <img src="../image/wu/20190627111906.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">食品</a> <span>|</span>
+                                <a href="">酒水</a> <span>|</span>
+                                <a href="">生鲜</a> <span>|</span>
+                                <a href="">特产</a>
+                                <div class="body-t-box2-left-li-down" style="top:-170px;">
+                                    <img src="../image/wu/20190627112038.jpg" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">母婴</a> <span>|</span>
+                                <a href="">玩具</a> <span>|</span>
+                                <a href="">车床</a> <span>|</span>
+                                <a href="">童装</a>
+                                <div class="body-t-box2-left-li-down" style="top:-204px;">
+                                    <img src="../image/wu/20190627112433.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">运动</a> <span>|</span>
+                                <a href="">户外</a> <span>|</span>
+                                <a href="">足球</a> <span>|</span>
+                                <a href="">跑步机</a>
+                                <div class="body-t-box2-left-li-down" style="top:-238px;">
+                                    <img src="../image/wu/20190627112525.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">男装</a> <span>|</span>
+                                <a href="">女装</a> <span>|</span>
+                                <a href="">内衣</a> <span>|</span>
+                                <a href="">鞋靴</a>
+                                <div class="body-t-box2-left-li-down" style="top:-272px;">
+                                    <img src="../image/wu/20190627112633.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">箱包</a> <span>|</span>
+                                <a href="">钟表</a> <span>|</span>
+                                <a href="">珠宝</a> <span>|</span>
+                                <a href="">艺术</a>
+                                <div class="body-t-box2-left-li-down" style="top:-306px;">
+                                    <img src="../image/wu/20190627112731.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">汽车</a> <span>|</span>
+                                <a href="">汽摩</a> <span>|</span>
+                                <a href="">二手车</a> <span>|</span>
+                                <a href="">车品</a>
+                                <div class="body-t-box2-left-li-down" style="top:-340px;">
+                                    <img src="../image/wu/20190627112900.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">图书</a> <span>|</span>
+                                <a href="">艺术</a> <span>|</span>
+                                <a href="">原版</a> <span>|</span>
+                                <a href="">文学</a>
+                                <div class="body-t-box2-left-li-down" style="top:-374px;">
+                                    <img src="../image/wu/20190627113040.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">医药健康</a> <span>|</span>
+                                <a href="">计生情趣</a>
+                                <div class="body-t-box2-left-li-down" style="top:-408px;">
+                                    <img src="../image/wu/20190627113128.png" alt="">
+                                </div>
+                            </li>
+                            <li class="body-t-box2-left-li">
+                                <a href="">理财</a> <span>|</span>
+                                <a href="">分期</a> <span>|</span>
+                                <a href="">保险</a> <span>|</span>
+                                <a href="">房产</a>
+                                <div class="body-t-box2-left-li-down" style="top:-442px;">
+                                    <img src="../image/wu/20190627113228.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="body-t-box2-main-box2"></div>
-                    <div class="body-t-box2-main-box3"></div>
-                </div>
-                <div class="body-t-box2-right">
-                    <a class="body-t-box2-right-logo" href="#"></a>
-                    <p class="body-t-box2-right-p">Hi,你好！</p>
-                    <div class="body-t-box2-right-box1">
-                        <span><a href="#" class="body-t-box2-right-box1-sp1"></a></span>
-                        <span><a href="#" class="body-t-box2-right-box1-sp2"></a></span>
+                    <div class="body-t-box2-main">
+                        <a href="#"><img src="../image/wu/1.jpg" width="100%" height="100%" id="img1"></a>
+                        <div class="body-t-box2-main-box1"><a href="#"><img src="../image/wu/20190627113924.jpg"
+                                    alt=""></a>
+                        </div>
+                        <div class="body-t-box2-main-box2"></div>
+                        <div class="body-t-box2-main-box3"></div>
                     </div>
-                    <div class="body-t-box2-right-box2 body-t-box2-right-box1">
-                        <span><a href="#" class="body-t-box2-right-box2-sp1"></a></span>
-                        <span><a href="#" class="body-t-box2-right-box2-sp2"></a></span>
-                    </div>
-                    <p><a href="#"> <span style="color: #F90;">[热点]</span>赶紧收藏|电炖盅和明火砂锅到底有啥不同！</a></p>
-                    <p><a href="#"> <span style="color: #F90;">[热点]</span>赶紧收藏|电炖盅和明火砂锅到底有啥不同！</a></p>
-                    <p><a href="#"> <span style="color: #F90;">[热点]</span>48岁钟丽缇的魔鬼好身材，这样坚持你也能有！</a></p>
-                    <div class="body-t-box2-right-box3">
-                        <a href="">
-                        </a>
+                    <div class="body-t-box2-right">
+                        <a class="body-t-box2-right-logo" href="#"></a>
+                        <p class="body-t-box2-right-p">Hi,你好！</p>
+                        <div class="body-t-box2-right-box1">
+                            <span><a href="#" class="body-t-box2-right-box1-sp1"></a></span>
+                            <span><a href="#" class="body-t-box2-right-box1-sp2"></a></span>
+                        </div>
+                        <div class="body-t-box2-right-box2 body-t-box2-right-box1">
+                            <span><a href="#" class="body-t-box2-right-box2-sp1"></a></span>
+                            <span><a href="#" class="body-t-box2-right-box2-sp2"></a></span>
+                        </div>
+                        <p><a href="#"> <span style="color: #F90;">[热点]</span>赶紧收藏|电炖盅和明火砂锅到底有啥不同！</a></p>
+                        <p><a href="#"> <span style="color: #F90;">[热点]</span>赶紧收藏|电炖盅和明火砂锅到底有啥不同！</a></p>
+                        <p><a href="#"> <span style="color: #F90;">[热点]</span>48岁钟丽缇的魔鬼好身材，这样坚持你也能有！</a></p>
+                        <div class="body-t-box2-right-box3">
+                            <a href="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-
 
             <div class="main-main">
                 <!-- 限时抢购 -->
