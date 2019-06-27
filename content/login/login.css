@@ -1,0 +1,273 @@
+.top {
+    width: 100%;
+}
+
+.mg1000 {
+    width: 1000px;
+    margin: 0px auto;
+
+}
+
+.d4 {
+    float: left;
+    color: #333;
+    margin-top: 40px;
+    border: 1px solid #F90;
+    background: #fefff1;
+    line-height: 16px;
+    padding: 4px 6px;
+}
+
+.d5 {
+    float: right;
+    margin-top: 8px;
+    text-decoration-line: none;
+    text-decoration-color: initial;
+    text-decoration-style: initial;
+}
+
+.mid {
+    width: 100%;
+    height: 570px;
+    background: url("../images/15.jpg") no-repeat center;
+}
+
+
+.form {
+    background: rgb(255, 255, 255);
+    width: 355px;
+    height: 414px;
+    float: right;
+    margin-top: 45px;
+}
+
+.usn {
+    border: 1px solid rgb(202, 200, 200);
+    margin-top: 50px;
+    width: 313px;
+    height: 38px;
+    background: url("../images/9.png") no-repeat 5px 5px;
+    text-indent: 2em;
+
+}
+
+.psd {
+    border: 1px solid rgb(202, 200, 200);
+    margin-top: 20px;
+    width: 313px;
+    height: 38px;
+    background: url("../images/10.png") no-repeat 5px 5px;
+    text-indent: 2em;
+
+}
+
+.denglu {
+    background: #ff6600;
+    width: 312px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border:0;
+    cursor: pointer;
+}
+.denglu:hover{
+    background:#ff5100;
+}
+.f2 {
+
+    margin-top: 30px;
+}
+
+.f2-1 {
+    float: left;
+}
+
+.f2 .f2-2 {
+    float: left;
+}
+
+.f2 .f2-3 {
+    float: right;
+
+}
+
+
+.f4 {
+    margin-top: 30px;
+    color: gray;
+}
+
+.f3-2:hover {
+    color: #F90;
+}
+
+.mg1000 {
+    text-align: center;
+}
+
+.ma {
+    margin-top: 50px;
+}
+
+.ma2 {
+    margin-top: 20px;
+}
+
+.t1 {
+    float: left;
+    text-align: center;
+    width: 170px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.t2 {
+    float: right;
+    text-align: center;
+    width: 170px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.txt-2 {
+    color: #F90;
+}
+
+.txt-2:hover {
+    color: #F90;
+    text-decoration: underline;
+}
+
+.psd2 {
+    border: 1px solid rgb(202, 200, 200);
+    margin-top: 20px;
+    width: 213px;
+    height: 38px;
+    background: url("../images/10.png") no-repeat 5px 5px;
+    text-indent: 2em;
+}
+
+.yzm {
+    background: rgb(219, 219, 219);
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    color: black;
+    border: 1px solid rgb(202, 200, 200);
+    cursor: pointer;
+
+
+}
+.yzm:hover{
+    color: #F90;
+}
+
+.title {
+    height: 50px;
+    line-height: 20px;
+    font-size: 16px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(238, 238, 238);
+    border-bottom-style: solid;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ma3 {
+    color: #F90;
+}
+
+.ma3:hover {
+    text-decoration: underline;
+}
+
+.f3 {
+    margin-top: 15px;
+}
+
+.f6 {
+    color: black;
+}
+
+.f6:hover {
+    color: #F90;
+    text-decoration: underline;
+}
+
+.sao {
+    color: black;
+}
+
+.sao:hover {
+    color: #F90;
+}
+
+.zhan {
+    color: black;
+}
+
+.zhan:hover {
+    color: #F90;
+}
+
+.f41 {
+    color: black;
+}
+
+.f41:hover {
+    color: #F90;
+    text-decoration: underline;
+}
+
+.f42 {
+    color: black;
+}
+
+.f42:hover {
+    color: #F90;
+    text-decoration: underline;
+}
+
+.f43 {
+    color: black;
+}
+
+.f43:hover {
+    color: #F90;
+    text-decoration: underline;
+}
+
+.f44 {
+    color: black;
+}
+
+.f44:hover {
+    color: #F90;
+    text-decoration: underline;
+}
+
+.f26 {
+    color: black;
+}
+
+.f26:hover {
+    color: #F90;
+    text-decoration: underline;
+}
+
+.d51 {
+    color: black;
+}
+
+.d51:hover {
+    color: #F90;
+}
+
+.f2-4 {
+    color: black;
+}
+
+.f2-4:hover {
+    color: #F90;
+}
