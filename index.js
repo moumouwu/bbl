@@ -12,7 +12,7 @@ var color = ["#9AA5FF", "#9AA5FF", '#079887', '#B2EAF7', '#B7221E', '#661BEA']
 function changeImg() {
     i++;
     //获取相应id所对应的元素
-    document.getElementById("img1").src = "../image/wu/" + i + ".jpg";
+    document.getElementById("img1").src = "../bbl/content/image/wu/" + i + ".jpg";
     document.getElementById("body-t-box2-main").style.backgroundColor = color[i];
     if (i == 5) {
         i = 0;
