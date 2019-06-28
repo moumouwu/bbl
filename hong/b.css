@@ -1704,7 +1704,12 @@
     margin-right: 2px;
     margin-bottom: 2px;
     background: #fff;
+    transition: all ls ease-in-out;
     /* border: 1px solid red; */
+}
+
+.m15 .m15-1-1 .right1 ul li:hover img {
+    transform: scale(1.1, 1.1);
 }
 
 .m15 .m15-1-1 .right1 ul {
@@ -1900,7 +1905,7 @@
     padding: 12px 0;
     height: 73px;
     border-bottom: 1px solid #dad8d8;
-
+    margin-left: 55px;
 }
 
 .bo-top a {
@@ -1920,7 +1925,7 @@
 
 .bo-top dl {
     float: left;
-    width: 260px;
+    width: 230px;
     overflow: hidden;
 }
 
@@ -1946,6 +1951,7 @@ dt {
 .bo-mid {
     float: left;
     height: 200px;
+    margin-left: 60px;
 }
 
 .bo-mid a {
