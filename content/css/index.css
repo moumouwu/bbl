@@ -1307,6 +1307,7 @@ dt {
     top: 0;
     bottom: 0;
     background: #131A1B;
+    z-index: 99;
 }
 
 .daohanglan-box1 {
