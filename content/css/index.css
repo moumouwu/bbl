@@ -467,9 +467,6 @@
     margin-left: 20px;
 }
 
-
-
-/* 特性 */
 .body-t-box2-left-li {
     position: relative;
 
@@ -492,7 +489,6 @@
     display: block;
 }
 
-/* ----------------- */
 .main-main {
     background: #F2F2F2;
 }
@@ -1301,4 +1297,19 @@ dt {
     float: left;
     height: 25px;
     margin-top: 5px;
+}
+
+
+.daohanglan {
+    position: fixed;
+    width: 30px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #131A1B;
+}
+
+.daohanglan-box1 {
+    float: left;
+    margin-top: 130px;
 }
