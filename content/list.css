@@ -474,6 +474,10 @@
     float: left;
 }
 
+.m1-1>li>a:hover div {
+    color: white;
+}
+
 .a1 {
     color: #333;
     width: 100%;
