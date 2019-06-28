@@ -68,12 +68,14 @@
     font-size: 20px;
     color: rgb(255, 255, 255);
     margin-top: 10px;
-    border:0;
+    border: 0;
     cursor: pointer;
 }
-.denglu:hover{
-    background:#ff5100;
+
+.denglu:hover {
+    background: #ff5100;
 }
+
 .f2 {
 
     margin-top: 30px;
@@ -159,7 +161,8 @@
 
 
 }
-.yzm:hover{
+
+.yzm:hover {
     color: #F90;
 }
 
@@ -270,4 +273,56 @@
 
 .f2-4:hover {
     color: #F90;
+}
+
+.bo-bo {
+    display: block;
+    width: 100%;
+    min-width: 990px;
+    text-align: center;
+}
+
+.bo-box1 {
+    display: block;
+    width: 990px;
+    min-width: 990px;
+    margin: 0px auto;
+    padding-top: 15px;
+    height: 185px;
+}
+
+.bo-box1-p a {
+    color: rgb(75, 72, 72);
+    font-size: 14px;
+}
+
+.bo-box1-p1 a {
+    color: rgb(150, 145, 145);
+    font-size: 14px;
+}
+
+.bo-box1-p {
+    line-height: 25px;
+    height: 25px;
+    font-size: 14px;
+    color: rgb(150, 145, 145);
+}
+
+.bo-box1-p span {
+    color: #888;
+    padding: 0 8px;
+}
+
+
+.bo-box1-p1 img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+
+.bo-footer {
+    width: 990px;
+    float: left;
+    height: 25px;
+    margin-top: 5px;
 }
