@@ -1,0 +1,161 @@
+/* 整个页面背景颜色 */
+.all{
+
+    background: #F8F8F8;
+}
+/* 网页头部样式 */
+.header{
+    width: 1000px;
+    height: 90px;
+    margin: 0px auto;
+     
+}
+.logo-txt{
+    color: #666666;
+    float: left;
+    font-size: 21px;
+    line-height: 90px;
+}
+.login{
+    color:#333333;
+    float: right;
+    margin-top:60px; 
+    font-family:"Microsoft Yahei"；
+}
+.login:hover{
+    color: orange;
+}
+ .logo{
+    float: left;
+    width: 210px;
+    height: 85px;
+    margin-right: 24px;
+}
+/* <!-- 网页中的重要内容的样式 --> */
+.mian{
+    width: 1000px;
+    height: 350px;
+    margin: 0px auto;
+    border: 1px solid #ddd;
+    border-top: 3px solid #f90;
+    background: #fff;
+    padding: 55px 0;
+    line-height: 1.5;
+} 
+.gift-pkg{
+    padding-left: 300px;
+}
+.w1{
+    line-height: 15px;
+}
+
+.tx1{
+    border: 0px;
+    padding: 10px;
+    height: 21px;
+}
+
+.phone-a{
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-indent: 19px;
+    margin-bottom: 25px;
+    
+}
+.phone-a1{
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-indent: 19px;
+    
+}
+.tishi1{
+    margin: 0px auto;
+    /* border: 1px solid #ccc; */
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-indent: 19px;
+    margin-bottom: 25px;
+    margin-bottom: 60px;    
+    
+}
+.tishi3{
+    color: #666666;
+}
+.tishi2{
+    color:#333333; 
+
+}
+.tishi2:hover{
+    color: orange;
+
+}
+.btn1{
+    height:43px;
+    width:130px;
+    border: 0;
+    border-left:1px solid   #ccc;
+    background-color: white;
+}
+
+.btn1:hover{
+    color: orange;
+}
+
+
+.submit-btn{
+    border: 0;
+    width: 398px;
+    height: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #FF5500;
+    /* border:black  solid 1px; */
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+
+   
+
+}
+.submit-btn:hover{
+   background: rgb(245, 66, 6);
+}
+.ime1{
+    padding-left: 300px;
+    margin-top: 5px;
+}
+/* <!-- 网页的尾部的样式 --> */
+.ng-footer {
+    height: 200px;
+    margin-top: 15px;
+}
+.ng-s-footer {
+    height: 185px;
+    text-align: center;
+    
+}
+
+p {
+   
+    padding: 4px;
+    margin: 3px auto;
+}
+.mg-url-list>a{
+    color: #666666;
+}
+.mg-url-list>a:hover{
+    color: orange;
+}
+.ng-copyright>a{
+    color: #999;
+}
+
+
+

@@ -1,0 +1,123 @@
+/* 整个页面背景颜色 */
+.all{
+    background: #F8F8F8;
+}
+/* 网页头部样式 */
+.header{
+    width: 1000px;
+    height: 90px;
+    margin: 0px auto;
+     
+}
+.logo-txt{
+    color: #666666;
+    float: left;
+    font-size: 15px;
+    line-height: 90px;
+}
+
+ .logo{
+    float: left;
+    width: 210px;
+    height: 85px;
+    margin-right: 24px;
+}
+/* <!-- 网页中的重要内容的样式 --> */
+.mian{
+    width: 1000px;
+    height: 350px;
+    margin: 0px auto;
+    border: 1px solid #ddd;
+    border-top: 3px solid #f90;
+    background: #fff;
+    padding: 55px 0;
+    line-height: 1.5;
+} 
+.gift-pkg{
+    margin-top: -50px;
+    padding-left: 21px;
+}
+.a1{
+    
+    margin-top: 65px;
+    margin-left: 270px;
+    margin-bottom: 25px;
+}
+.a2{
+    width: 170px;
+    height: 22px;
+    border:1px solid #999;
+}
+.a2:hover{
+    border: 1px solid rgb(68, 68, 247);
+}
+.a3{
+    color:rgb(66, 66, 240);
+
+}
+.a3:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.a5{
+    margin-top: 20px;
+    padding-left: 50px;
+    
+}
+.a6:hover{
+    border: 1px solid rgb(68, 68, 247);
+}
+
+.a6{
+    
+    width: 100px;
+    height: 20px;
+    border:1px solid #999;
+}
+.submit-btn{
+    border: 0;
+    width: 190px;
+    height: 25px;
+    margin-left:105px;
+     margin-top: 25px;
+    background-color:rgb(223, 162, 51);
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.d1{
+   
+    color:rgb(66, 66, 240);
+}
+.d1:hover{
+    color: #FF5500;
+    text-decoration: underline;
+}
+/* <!-- 网页的尾部的样式 --> */
+.ng-footer {
+    height: 200px;
+    margin-top: 15px;
+}
+.ng-s-footer {
+    height: 185px;
+    text-align: center;
+    
+}
+
+p {
+   
+    padding: 4px;
+    margin: 3px auto;
+}
+.mg-url-list>a{
+    color: #666666;
+}
+.mg-url-list>a:hover{
+    color: orange;
+}
+.ng-copyright>a{
+    color: #999;
+}
+
+
