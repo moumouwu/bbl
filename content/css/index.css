@@ -275,8 +275,8 @@
 
 .body-t-box1-main {
     float: left;
-    display: inline-block;
-    width: 830px;
+    display: block;
+    width: 807px;
     height: 40px;
 }
 
@@ -355,6 +355,8 @@
 .body-t-box2-main {
     float: left;
     position: relative;
+    width: 800px;
+    height: 482px;
 }
 
 .body-t-box2-main-box1 {
@@ -363,13 +365,14 @@
     left: 5px;
 }
 
+
 .body-t-box2-main-box2 {
     position: absolute;
     background: url("../image/wu/index.png") no-repeat 0 -145px;
     z-index: 16;
     width: 30px;
     height: 64px;
-    top: 133px;
+    top: 175px;
 }
 
 .body-t-box2-main-box3 {
@@ -379,17 +382,18 @@
     width: 30px;
     height: 64px;
     right: 0px;
-    top: 133px;
+    top: 175px;
 }
 
 .body-t-box2-main-box1>a>img {
-    width: 820px;
+    width: 780px;
 }
 
 .body-t-box2-right {
     float: left;
     height: 482px;
-    width: 220px;
+    width: 260px;
+    background: white;
 }
 
 .body-t-box2-right-logo {
@@ -397,12 +401,12 @@
     height: 50px;
     width: 50px;
     background: url("../image/wu/index.png") no-repeat -95px -25px;
-    margin-left: 75px;
+    margin-left: 105px;
     margin-top: 10px;
 }
 
 .body-t-box2-right-p {
-    margin-left: 80px;
+    margin-left: 110px;
 }
 
 .body-t-box2-right-box1 {
@@ -411,7 +415,7 @@
 
 .body-t-box2-right-box1-sp1 {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 65px;
     background: url("../image/wu/index.png") no-repeat -295px -247px;
     height: 28px;
     width: 70px;
@@ -424,9 +428,13 @@
     width: 70px;
 }
 
+.body-t-box2-right-p1 {
+    font-size: 15px;
+}
+
 .body-t-box2-right-box2-sp1 {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 65px;
     background: url("../image/wu/index.png") no-repeat -670px -250px;
     height: 23px;
     width: 70px;
@@ -451,13 +459,14 @@
 }
 
 .body-t-box2-right-box3>a {
-    margin-top: 45px;
-    margin-left: 5px;
+    margin-top: 10px;
     background: url("../image/wu/mean4.png") no-repeat center;
     display: inline-block;
-    width: 200px;
-    height: 160px;
+    width: 210px;
+    height: 150px;
+    margin-left: 20px;
 }
+
 
 
 /* 特性 */
@@ -471,6 +480,7 @@
     display: none;
     top: 0px;
     left: 240px;
+    z-index: 17;
 }
 
 .body-t-box2-left-li-down>img {
@@ -489,12 +499,26 @@
 
 .body-t2 {
     background: white;
+    width: 1300px;
+    margin: 0 auto;
 }
 
 .body-t2-box1 {
     padding-top: 15px;
     border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
 
+.daojishi {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 15px;
+    background: #333;
+    color: white;
+    font-size: 18px;
+    text-align: center;
 }
 
 .body-t2-box1>span {
@@ -503,6 +527,26 @@
 
 .body-t2-box1-sp:hover {
     background: rgb(245, 129, 63);
+}
+
+.body-t2-box1-sp1 {
+    position: relative;
+}
+
+.body-t2-box1-sp1-down {
+    position: absolute;
+    display: none;
+    top: 35px;
+    z-index: 20;
+}
+
+.body-t2-box1-sp1-down>img {
+    width: 1080px;
+    height: 260px;
+}
+
+.body-t2-box1-sp1:hover .body-t2-box1-sp1-down {
+    display: block;
 }
 
 .body-t2-box1-box1 {
@@ -526,6 +570,8 @@
 .body-t2-box2 {
     position: relative;
 }
+
+
 
 .body-t2-box2-u1>li {
     float: left;
@@ -726,7 +772,7 @@
 
 .body-t3-box3-b3-sp1 {
     float: right;
-    display: inline-block;
+    display: block;
     width: 288px;
     height: 40px;
     margin-top: 15px;
@@ -1015,7 +1061,7 @@
     width: 190px;
     height: 190px;
     margin: 0 auto 0;
-    transition1: 0.5s;
+    transition: 0.5s;
 }
 
 .body-t8-ul-a-p {
