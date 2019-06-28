@@ -147,6 +147,7 @@
     color: #333333;
 }
 .ime1:hover{
+    color: #FF5500;
     text-decoration: underline;
 }
 .ime2{
@@ -155,6 +156,7 @@
     color: #333333;
 }
 .ime2:hover{
+    color: #FF5500;
     text-decoration: underline;
 }
 /* <!-- 网页的尾部 的样式--> */
